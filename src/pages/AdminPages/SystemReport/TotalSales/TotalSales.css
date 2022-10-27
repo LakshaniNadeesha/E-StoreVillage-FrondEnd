@@ -1,0 +1,25 @@
+.admin-total-sales-main-container {
+    padding: 2%;
+    width: 100%;
+}
+
+.sales-history-report-totals {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sales-history-report-totals > div {
+    flex-direction: row;
+    background-color: white;
+    padding: 2% 1%;
+    border-radius: 15px;
+    display: flex;
+    gap: 10px;
+    width: 20%;
+}
+
+.sales-history-report-totals > div > div > h3 {
+    margin-top: 5px;
+}

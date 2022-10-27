@@ -1,0 +1,43 @@
+.event-sub-container {
+  padding: 40px;
+}
+.event-offer-container {
+  padding: 1%;
+}
+
+.event-offer-sub-container {
+  padding: 1%;
+  background-color: #d3d0d0;
+}
+.event-title {
+  margin-bottom: 2%;
+}
+.event-offer-product-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+}
+
+.event-give-away-row-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-give-away-btn button {
+  background-color: #ffc029;
+  padding: 15px 13px;
+  font-weight: bold;
+  font-size: 15px;
+  gap: 8px;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-give-away-btn button:hover{
+  cursor: pointer;
+}
