@@ -1,0 +1,22 @@
+.product-list1-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d0d0;
+  padding: 5% 5%;
+  gap: 60px;
+}
+
+.add-product-container {
+  width: 292px;
+  background: #b3cedd;
+  border: 2px dashed #1a3353;
+  height: 330px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
