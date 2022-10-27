@@ -1,0 +1,217 @@
+.sub-main-category {
+  padding: 0 4%;
+  background-color: #0a0731;
+  width: 100%;
+}
+
+.landing-page-top-categories {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 40px;
+  padding-top: 4%;
+}
+.landing-page-top-categories1 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 40px;
+  padding-top: 4%;
+}
+.landing-page-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.landing-page-column > img {
+  width: 120px;
+  border-radius: 50%;
+
+}
+
+.landing-page-column > span {
+  color: white;
+  font-family: "Poly";
+}
+
+.sub-main-top-category-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+  margin-bottom: 2%;
+}
+.sub-main-top-category-header > h3 {
+  font-family: "Poly";
+  font-weight: 400;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.sub-main-top-category-header > p {
+  font-family: "Poly";
+  font-size: 21px;
+  color: #ffffff;
+  width: 49%;
+  margin-top: 2%;
+}
+
+.lading-page-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+.lading-page-shop-now-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+.lading-page-shop-now-btn > button {
+  border: 1px solid #ffffff;
+  color: white;
+  padding: 5% 15%;
+  background-color: transparent;
+  font-family: "Poly";
+  margin-top: 5%;
+}
+
+.lading-page-btn-container > button {
+  border: 1px solid #ffffff;
+  color: white;
+  padding: 1% 4%;
+  background-color: transparent;
+  font-family: "Poly";
+}
+
+.landing-page-about-us-container {
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 5%;
+  padding-bottom: 6%;
+}
+
+.landing-page-about-us-container > img {
+  width: 20%;
+}
+
+.eclipse-container {
+  border-radius: 100%;
+  background-color: #d9d9d9;
+  padding: 2%;
+  width: 117px;
+  height: 116px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eclipse-container > img {
+  width: 50%;
+  object-fit: contain;
+}
+
+.about-us-services {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-us-service-details > p {
+  font-family: "Poly";
+  color: white;
+  font-size: 25px;
+}
+
+.about-us-service-details > span {
+  font-family: "Poly";
+  color: white;
+  font-size: 15px;
+}
+
+.about-us-services:nth-child(2) {
+  margin-top: 8%;
+}
+
+.about-us-txt {
+  font-size: 33px;
+  color: white;
+  font-family: "Poly";
+  font-weight: normal;
+  font-weight: 100;
+}
+
+.about-us-txt-p-1 {
+  font-size: 23px;
+  color: white;
+  font-family: "Poly";
+  font-weight: normal;
+  font-weight: 100;
+  margin-top: 12%;
+}
+
+.footer-container {
+  background-color: #abbac5;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 2%;
+  flex-direction: row;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 14%;
+}
+
+.footer-container-logo {
+  width: 20%;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-column > h3 {
+  margin-bottom: 40px;
+  color: #02334f;
+}
+
+.footer-column > span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 20px;
+  color: #02334f;
+}
+
+.download-location-container {
+  position: absolute;
+  bottom: 12%;
+}
+
+.download-location-container > img {
+  width: 264.13px;
+}
+
+.download-location-container > p {
+  text-align: center;
+  margin-bottom: 1%;
+  color: #02334f;
+}
+
+.brand-new-p {
+  color: #acabb0;
+  margin-top: 15%;
+  font-family: "Poly";
+}
