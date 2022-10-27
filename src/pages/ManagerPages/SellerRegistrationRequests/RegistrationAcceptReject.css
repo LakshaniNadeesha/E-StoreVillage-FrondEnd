@@ -1,0 +1,138 @@
+.reg-request-reject-main-container {
+    padding: 2.5% 1%;
+    width: 100%;
+}
+
+.reg-request-reject-row-container {
+    background-color: #fffcfc;
+    width: 55%;
+    margin-left: 23%;
+    margin-top: 8%;
+    height: 280px;
+    border-radius: 32px;
+
+}
+
+.reg-request-accept-row-container{
+    background-color: #fffcfc;
+    width: 55%;
+    margin-left: 23%;
+    margin-top: 8%;
+    height: 380px;
+    border-radius: 32px;
+}
+
+.reg-request-reject-row-container .reg-reject-verify-p{
+    padding-top: 60px;
+    padding-left: 65px;
+    padding-bottom: 70px;
+    font-size: 18px;
+    font-weight:bold;
+}
+
+.reg-request-full{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.reg-request-left{
+    margin-top: 5%;
+    margin-left: 5%;
+    flex: 20%;
+}
+
+.reg-request-right{
+    flex: 80%;
+    margin-top: 5%;
+    /*margin-left: 3%;*/
+}
+
+
+/*Buttons for accepting registration requests */
+.reg-request-accept-respond-option{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.reg-request-accept-respond-option .reg-request-manager-accept{
+    background-color: #00A36C;
+    color: white;
+    border: 2px solid #00A36C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20%;
+}
+
+.reg-request-accept-respond-option .reg-request-manager-accept-cancel{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.reg-request-manager-accept:hover{
+    cursor: pointer;
+}
+
+.reg-request-manager-accept-cancel:hover{
+    cursor: pointer;
+}
+/*Buttons for rejecting registration requests */
+
+.reg-request-respond-option {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg-request-respond-option .reg-request-manager-reject{
+    background-color: #f44336;
+    color: white;
+    border: 2px solid #f44336;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20%;
+}
+
+.reg-request-respond-option .reg-request-manager-cancel{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.reg-request-manager-cancel:hover{
+    cursor: pointer;
+
+}
+
+.reg-request-manager-reject:hover{
+    cursor: pointer;
+}
