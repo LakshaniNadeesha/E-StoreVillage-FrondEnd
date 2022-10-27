@@ -1,0 +1,9 @@
+.shop-list-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    background-color: #d3d0d0;
+    padding: 5% 5%;
+    gap: 60px;
+}
