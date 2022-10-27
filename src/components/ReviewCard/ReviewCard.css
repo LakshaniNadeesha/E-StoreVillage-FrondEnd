@@ -1,0 +1,24 @@
+.review-row-container {
+  display: flex;
+  flex-direction: row;
+  padding: 1% 2%;
+  width: 100%;
+  background-color: white;
+  height: 185px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  border-radius: 31px;
+  margin-top: 2.5%;
+}
+.review-profile-img {
+  width: 100%;
+  height: 80%;
+}
+
+.review-profile-container {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
