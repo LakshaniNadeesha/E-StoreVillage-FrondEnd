@@ -1,0 +1,109 @@
+.form-box {
+    background: white;
+    padding: 30px 0px 30px 50px;
+    width: 55%;
+    border-radius: 30px;
+}
+
+label {
+    background-color: white;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.p-full {
+    display: flex;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.p-left {
+    flex: 50%;
+    background: white;
+}
+
+.p-right {
+    flex: 50%;
+    background: white;
+}
+
+.manager-event-input-text {
+    padding: 8px 40px 8px 10px;
+    border: 3px solid #ccc;
+}
+
+.manager-event-input-text1 {
+    padding: 8px 40px 8px 10px;
+    width: 218px;
+    border: 3px solid #ccc;
+
+}
+
+.manager-event-input-text2 {
+    padding: 8px 40px 8px 10px;
+    width: 218px;
+    border: 3px solid #ccc;
+}
+
+.manager-event-input-text3 {
+    border: 3px solid #ccc;
+    padding: 8px 120px 90px 10px;
+    width: 83%;
+}
+
+.manager-event-file-input {
+    width: 83%;
+    height: 140px;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid #ccc;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+}
+
+.manager-event-file-input i {
+    font-size: 25px;
+    color: #0C6170;
+    margin-right: 115px;
+    margin-top: 10px;
+}
+
+.manager-event-file-input p {
+    margin-top: 10px;
+    font-size: 14px;
+    margin-right: 115px;
+    color: #717171;
+    margin-bottom: 1px;
+}
+
+.event-create {
+    background: white;
+}
+
+.event-create button {
+    background-color: #FBBC05;
+    border-radius: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 22px;
+    margin-top: 15px;
+    margin-left: 35%;
+    padding-right: 22px;
+    border: white;
+     font-size: 14px;
+}
+
+.event-create button:hover{
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.event-create i {
+    background: #FBBC05;
+    margin-right: 8px;
+}
