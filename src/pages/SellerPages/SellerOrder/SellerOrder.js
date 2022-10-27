@@ -1,12 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./sellerorder.css";
 import Chain from "../../../assests/images/chain.png";
 import Shop from "../../../assests/images/shop_02.png";
 import Profile2 from "../../../assests/images/profile-img1.png";
 import { Link, useNavigate } from "react-router-dom";
+import { useAuthUser } from "react-auth-kit";
+import axios from "axios";
 
 const SellerOrder = () => {
-    const orders = [{}, {}, {}, {}];
+    const [data, setData] = useState([])
+  const auth = useAuthUser()
+
+  useEffect(() => {
+    axios.get("http://localhost:3030/v1/order", {
+      user: auth().id
+    }, { withCredentials: true, })
+      .then((res) => {
+        console.log(res);
+        setData(res.data.data)
+      })
+  }, [])
+
 
     const navigate = useNavigate();
     return (
@@ -65,7 +79,7 @@ const SellerOrder = () => {
                 </tr>
                 <div style={{ height: 10 }}></div>
 
-                {orders.map((item, index) => (
+                {data.map((item, index) => (
                     <>
                         <tr style={{ backgroundColor: "white" }}>
                             <td

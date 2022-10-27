@@ -4,11 +4,12 @@ import Shop from "../../../assests/images/shop_02.png";
 import Rating from "react-rating";
 import { IoStarOutline, IoMdStar } from "react-icons/io5";
 import { GrStar } from "react-icons/gr";
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { useAuthUser } from "react-auth-kit";
 
 const ShopProfile = () => {
   const navigate = useNavigate();
-
+  const auth = useAuthUser()
   return (
     <div className="shop-profile-main-container">
       <div className="shop-profile-sub-container">
@@ -39,23 +40,21 @@ const ShopProfile = () => {
           </div>
           <div className="profile-detail-container" style={{ width: "100%" }}>
             <span className="profile-detail-txt">
-              E-mail - sandunifdo@gmail.com
+              E-mail - {auth().email}
             </span>
             <span className="profile-detail-txt">
-              Adddress - No 256, Colombo
+              Adddress -  {auth().address}
             </span>
             <span className="profile-detail-txt">
-              Contact No - 071-XXXXXXXX
+              Contact No - {auth().phoneNumber}
             </span>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              accumsan ipsum vitae nisi sagittis venenatis. Praesent nec orci et
-              urna ullamcorper sollicitudin ut in
+            {auth().bio}
             </p>
 
             <div className="myshop-edit-btn">
               <button style={{ bottom: "21%" }} className="shop-profile-edit-btn"
-                      onClick={() => navigate("/shopProfile/edit_shopProfile")}>
+                onClick={() => navigate("/shopProfile/edit_shopProfile")}>
                 Edit Profile
               </button>
             </div>

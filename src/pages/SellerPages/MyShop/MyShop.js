@@ -8,10 +8,19 @@ import { GrStar } from "react-icons/gr";
 import ReviewCard from "../../../components/ReviewCard/ReviewCard";
 import SubNavbar from "../../../components/SubNavbar/SubNavbar";
 import ShopTopProducts from "../../ShopPage/ShopTopProducts";
+import { useIsAuthenticated } from "react-auth-kit";
+import { useLocation } from "react-router-dom";
 
 const MyShop = () => {
   const products = [{}, {}, {}, {}];
   const reviews = [{}, {}, {}];
+  // const router = useLocation();
+
+  // const isAuthenticated = useIsAuthenticated()
+  // if (isAuthenticated()) {
+  //   router('/');
+  // }
+
   return (
 
     <div className="my-shop-main-container">
