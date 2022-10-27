@@ -1,0 +1,88 @@
+.help-page-main-container {
+    padding: 2.5% 1%;
+    width: 100%;
+}
+
+
+.help-page-row-container{
+    background-color: #fffcfc;
+    width: 80%;
+    margin-left: 2%;
+    margin-top: 3%;
+    height: 460px;
+    /*border-radius: 32px;*/
+}
+.help-form{
+    padding: 30px 0px 30px 50px;
+    width: 55%;
+    border-radius: 30px;
+}
+
+.help-p-full{
+    display: flex;
+    background: white;
+    margin-bottom: 40px;
+}
+
+.help-p-left{
+    flex: 90%;
+    background: white;
+}
+
+
+.help-page-input-text{
+    padding: 10px 210px 8px 10px;
+    border: 3px solid #ccc;
+}
+
+.help-page-input-text1{
+    padding: 8px 40px 100px 10px;
+    width: 600px;
+    border: 3px solid #ccc;
+}
+
+.help-page-respond-option {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16%;
+}
+
+
+.help-page-respond-option .help-submit-success {
+    background-color: #00A36C;
+    color: white;
+    border: 2px solid #00A36C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 80%;
+    margin-right: 40%;
+}
+
+.help-page-respond-option .help-submit-cancel{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.help-submit-success:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.help-submit-cancel:hover{
+    cursor: pointer;
+
+}
