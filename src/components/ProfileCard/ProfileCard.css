@@ -1,0 +1,43 @@
+.profile-card-container{
+    background: #fffcfc;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 275px;
+    height: 320px;
+    padding: 21px 20px;
+    border-radius: 31px;
+}
+
+.profile-image-container{
+    width: 150px;
+    height: 130px;
+    object-fit: contain;
+}
+
+.user-active-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #ffc029d4;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+.user-active-btn:hover{
+    cursor: pointer;
+}
+
+.user-name {
+    font-size: 15px;
+    margin-top: 15%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    font-size: 16px;
+    font-weight: bold;
+}
