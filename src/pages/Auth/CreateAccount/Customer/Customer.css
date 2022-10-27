@@ -1,0 +1,125 @@
+.customer-create-account-main {
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.customer-crate-section {
+  background-color: white;
+  flex-direction: row;
+  width: 80%;
+  display: flex;
+}
+
+.customer-img-container {
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+flex-direction: column;
+}
+
+.customer-input-container {
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  background-color: #dee1ef;
+  padding-bottom: 20px;
+}
+.customer-img-container > img {
+  width: 50%;
+}
+
+.m-top {
+  margin-top: 10px;
+}
+
+.create-account-login {
+  font-family: "Poly";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  align-items: center;
+  text-align: center;
+  color: #02334f;
+  margin-bottom: 40px;
+}
+
+.tab-bar-create-account {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 100%;
+  justify-content: flex-end;
+  margin-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.create-account-yellow-btn {
+  background: rgba(255, 192, 41, 0.83);
+  border: 3px solid rgba(255, 192, 41, 0.83);
+  border-radius: 20px;
+  width: 200px;
+  height: 60px;
+  font-family: "Poly";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+}
+
+.create-account-yellow-btn:hover{
+  cursor: pointer;
+}
+
+.tab-bar-create-account > button:nth-child(1) {
+  background: #144967;
+  border-radius: 30px;
+  color: white;
+  height: 45px;
+  width: 136px;
+  position: absolute;
+  right: 16%;
+}
+.tab-bar-create-account > button:nth-child(2) {
+  background: #6d9dc5;
+  border-radius: 30px;
+  height: 45px;
+  width: 136px;
+  color: white;
+}
+
+.regiseter-to-login {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.regiseter-to-login > span {
+  font-family: "Poly";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.regiseter-to-login > p {
+  font-family: "Poly";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #144967;
+}
+
+.or-login {
+  font-family: "Poly";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #144967;
+  text-align: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,152 @@
+.login-page-main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 100vh;
+  align-items: center;
+}
+.login-container {
+  width: 40%;
+  background-color: #dee1ef;
+  margin-top: 2%;
+  border-radius: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 3%;
+  padding-bottom: 7%;
+}
+
+.login-container-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4%;
+}
+
+.login-container-header > p {
+  font-family: "Poly";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  color: #144967;
+}
+.sub-title-login {
+  font-weight: 400;
+  font-size: 15px;
+  color: #524e61;
+  margin-top: 0.5%;
+}
+.auth-input-container {
+  width: 100%;
+}
+
+.auth-input-label {
+  font-family: "Poly";
+  font-style: "normal";
+  font-weight: 400;
+  font-size: 20px;
+  color: #144967;
+}
+.auth-input {
+  background: #fffdfd;
+  border-bottom: 1px solid #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  padding: 2% 4%;
+  font-family: "Poly";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.remember-me-container {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.remember-me-container > span {
+  color: #7b7878;
+  font-family: "Poly";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.remember-me-container > p {
+  color: #02334f;
+  font-family: "Poly";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+.login-btn {
+  width: 100%;
+  margin-top: 10%;
+  height: 55px;
+  background: #144967;
+  border-radius: 6px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-style: "normal";
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.crate-account-login {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.crate-account-login > span {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #7b7878;
+}
+.crate-account-login > p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #144967;
+  cursor: pointer;
+}
+
+.social-media-container-login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.social-media-container-login > img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+.welcome-png {
+
+  width: 826px;
+  height: 409px;
+
+}
