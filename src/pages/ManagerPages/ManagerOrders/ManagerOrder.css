@@ -1,0 +1,106 @@
+.myorders-main-container {
+    margin-top: 2%;
+    padding: 2%;
+    width: 100%;
+}
+.orders-table {
+    border-spacing: 0;
+}
+
+.orders-table-header {
+    background-color: #d9d9d9;
+    border-radius: 31px;
+}
+
+.orders-header-table {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    background-color: #d9d9d9;
+    padding: 1.5% 0;
+    border-radius: 18px;
+    margin-bottom: 1%;
+}
+
+.order-table-header-txt {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.order-no-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.order-detail-txt {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.order-item-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.order-shop-item-size {
+    width: 62%;
+    height: 53px;
+    margin-top: 8%;
+}
+
+.order-customer-item-size{
+    width: 72%;
+    height: 65px;
+    object-fit: contain;
+
+}
+
+.order-item-column > p {
+    font-size: 14px;
+    margin-top: 10%;
+}
+
+.order-detail-txt {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.dark-green {
+    color: #0f4506;
+}
+
+.light-green {
+    color: #1a760b;
+}
+
+.order-shop-name-txt {
+    width: 80%;
+    font-size: 13px;
+    padding: 3% 6% 3% 6%;
+    margin-top: 18%;
+}
+
+.order-customer-name-txt{
+    font-size: 13px;
+    width: 80%;
+    padding: 3% 6% 3% 6%;
+    margin-top: 8%;
+}
+
+.order-manager-shop-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.order-customer-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
