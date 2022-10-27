@@ -1,0 +1,75 @@
+.registration-card-container{
+    background: #fffcfc;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 275px;
+    height: 320px;
+    padding: 21px 20px;
+    border-radius: 31px;
+}
+
+.registration-card-image-container{
+    width: 150px;
+    height: 130px;
+    object-fit: contain;
+}
+
+.seller-reg-name {
+    font-size: 15px;
+    margin-top: 15%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.reg-btn-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 15%;
+}
+.reg-accept-btn {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #ffc029d4;
+    padding-left: 9px;
+    padding-right: 13px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 80%;
+    margin-left: 5%;
+}
+
+.reg-accept-btn:hover{
+    cursor: pointer;
+}
+
+.reg-reject-btn{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #f44336;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 80%;
+    margin-right: 2%;
+}
+
+.reg-reject-btn:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.sidebar-container {
+  height: 91vh;
+  width: 17vw;
+  background-color: white;
+  flex-direction: column;
+  display: flex;
+  gap: 40px;
+  padding: 18px 42px;
+  background-color: #fffcfc;
+  position: fixed;
+  overflow: scroll;
+  z-index: 10;
+  padding-bottom: 5%;
+}
+
+.sidebar-container::-webkit-scrollbar {
+  display: none;
+}
+
+.row-container {
+  flex-direction: row;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.row-container span {
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+}
