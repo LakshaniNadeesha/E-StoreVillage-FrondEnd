@@ -7,19 +7,19 @@ import { IoStarOutline} from "react-icons/io5";
 import { GrStar } from "react-icons/gr";
 import {useNavigate} from "react-router-dom";
 
-const ManagerProductCard = () => {
+const ManagerProductCard = (item) => {
     const navigate = useNavigate();
-
+    console.log(item.item);
     return (
         <div className="cart-container">
             <div style={{ display: "flex", justifyContent: "center" }}>
                 <img src={Chain} className="image-container" />
             </div>
-            <p className="description">24 in stocks for 3 variants </p>
-            <h5 className="product-name">Handmade Necklace </h5>
+            <p className="description">{item.item.qty} in stocks</p>
+            <h5 className="product-name">{item.item.name} </h5>
             <div className="price-container">
-                <span className="price">LKR 400.00</span>
-                <span className="grand-total">LKR 1250.00</span>
+                <span className="price">LKR {item.item.price_sale}</span>
+                {/* <span className="grand-total">LKR 1250.00</span> */}
             </div>
 
             <div className="rating-container">
@@ -36,7 +36,7 @@ const ManagerProductCard = () => {
                         />
                     }
                 />
-                <button className="yellow-btn" onClick={() => navigate("/manager_products/visit_shop")}>
+                <button className="yellow-btn" onClick={() => navigate(`/manager_products/visit_shop?id=${item.item.id}`)}>
                     <AiOutlineShoppingCart size={20} />
                     Visit The Shop
                 </button>

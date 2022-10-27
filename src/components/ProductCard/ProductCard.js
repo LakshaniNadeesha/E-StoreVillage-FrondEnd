@@ -7,29 +7,28 @@ import Rating from "react-rating";
 import { IoStarOutline, IoMdStar } from "react-icons/io5";
 import { GrStar } from "react-icons/gr";
 import { VscStarEmpty } from "react-icons/vsc";
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-const ProductCard = () => {
-    const navigate = useNavigate();
-
-    return (
+const ProductCard = ({ item }) => {
+  const navigate = useNavigate();
+  return (
     <div className="cart-container">
       <div style={{ display: "flex", justifyContent: "center" }}>
         <img src={Chain} className="image-container" />
       </div>
-      <p className="description">24 in stocks for 3 variants </p>
-      <h5 className="product-name">Handmade Necklace </h5>
+      <p className="description">{item.qty} stock</p>
+      <h5 className="product-name">{item.name}</h5>
       <div className="price-container">
-        <span className="price">LKR 400.00</span>
-        <span className="grand-total">LKR 1250.00</span>
+        <span className="price">LKR {item.price_sale}</span>
+        {/* <span className="grand-total">LKR 1250.00</span> */}
       </div>
       <div className="btn-row">
-        <button className="yellow-btn" onClick={() => navigate("/buy_now")}>
+        <button className="yellow-btn" onClick={() => navigate(`/buy_now?id=${item.id}`)}>
           <RiShoppingBagLine size={20} />
           Buy Now
         </button>
-        <button className="yellow-btn" onClick={() => navigate("/add_to_cart")}>
-          <AiOutlineShoppingCart size={20} />
+        <button className="yellow-btn" onClick={() => navigate(`/add_to_cart?id=${item.id}`)}>
+          <AiOutlineShoppingCart id={item.id} size={20} />
           Add To Cart
         </button>
       </div>
