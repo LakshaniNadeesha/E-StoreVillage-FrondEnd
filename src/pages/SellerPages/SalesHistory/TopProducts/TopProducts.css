@@ -1,0 +1,35 @@
+.sales-history-top-products-row {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  background-color: white;
+  border-radius: 18px;
+  padding: 0% 2%;
+  margin-top: 2%;
+}
+.sales-history-top-products-sub-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.sales-history-top-products-sub-row > img {
+  width: 50px;
+  object-fit: contain;
+}
+.sales-history-top-products-column {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top-product-cart-title{
+  font-size: medium;
+  font-weight: normal;
+}
+
+.sales-history-top-products-column > h5 {
+  margin-top: 5px;
+}

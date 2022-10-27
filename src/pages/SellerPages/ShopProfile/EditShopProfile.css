@@ -1,0 +1,101 @@
+.shop-profile-edit-main-container {
+    padding: 2.5% 1%;
+    width: 100%;
+}
+
+.shop-profile-edit-row-container {
+    background-color: #fffcfc;
+    width: 100%;
+    height: 110vh;
+    border-radius: 32px;
+    flex-direction: row;
+    display: flex;
+}
+
+.shop-profile-edit-row-container > article {
+    width: 100%;
+}
+
+.change-shop-profile-picture{
+    top: 0;
+    margin-bottom: 55%;
+}
+
+
+.shop-edit-profile-img-container {
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    bottom: 0;
+}
+
+.shop-edit-profile-img-container img:hover{
+    cursor: pointer;
+}
+
+.shop-edit-profile-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.back-arrow:hover{
+    cursor: pointer;
+}
+.shop-profile-vr {
+    height: 92%;
+    width: 2px;
+    background-color: black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.edit-shop-profile-detail-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2%;
+    flex-direction: column;
+    padding: 35px;
+    position: relative;
+}
+.edit-shop-profile-span{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+
+.shop-profile-img {
+    width: 40%;
+    object-fit: contain;
+}
+.shop-profile-save-btn{
+    background-color: #ffc029;
+    border-radius: 16px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    padding: 12px 0px;
+    left: 0;
+    right: 0;
+    margin-top: 5%;
+    margin-left: 30%;
+    width: 159px;
+}
+
+.shop-profile-save-btn:hover{
+    cursor: pointer;
+}
+
+
+.edit-shop-input-text{
+    background: #faf8f8;
+    margin-bottom: 4%;
+    box-shadow: 0px 5px 4px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    width: 70%;
+    padding: 4%;
+}

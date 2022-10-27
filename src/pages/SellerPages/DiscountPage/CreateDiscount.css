@@ -1,0 +1,130 @@
+.create-discount-main-container{
+    padding: 2.5% 1%;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.create-discount-row-container{
+    width: 57%;
+    margin-left: 23%;
+    margin-top: 2%;
+    height: 450px;
+    border-radius: 32px;
+    background-color: white;
+    margin-bottom: 2%;
+}
+.create-discount-form-box{
+    background: white;
+    padding: 30px 0px 20px 50px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.create-discount-full{
+    display: flex;
+    background: white;
+    margin-bottom: 30px;
+}
+
+.create-discount-left{
+    flex: 50%;
+    background: white;
+}
+
+.create-discount-right{
+    flex: 50%;
+    background: white;
+}
+
+label {
+    background-color: white;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.create-discount-input-text{
+    padding: 12px 60px 12px 10px;
+    border: 3px solid #ccc;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.create-discount-input-text1{
+    padding: 12px 60px 12px 10px;
+    width: 260px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.create-discount-input-text2{
+    border: 3px solid #ccc;
+    padding: 0px 120px 90px 10px;
+    width: 91%;
+    height: 170px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.create-discount-button{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-discount-success-btn {
+    background-color: #ffc029d4;
+    color: black;
+    border: 2px solid #ffc029d4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 36px;
+    padding-right: 36px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20%;
+    margin-top: 0;
+}
+
+.update-discount-success-btn{
+    background-color: #ffc029d4;
+    color: black;
+    border: 2px solid #ffc029d4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20%;
+    margin-top: 0;
+}
+
+.create-discount-cancel-btn{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 8%;
+}
+
+
+.create-discount-success-btn:hover{
+    cursor: pointer;
+}
+
+.update-discount-success-btn:hover{
+    cursor: pointer;
+}
+.create-discount-cancel-btn:hover{
+    cursor: pointer;
+}

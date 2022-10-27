@@ -1,0 +1,98 @@
+.discount-main-container {
+  padding: 2% 4%;
+  width: 100%;
+}
+
+.discount-header-row-container {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6%;
+}
+
+.discount-title {
+  margin-top: 5%;
+
+}
+
+.create-discount-btn button{
+  background-color: #ffc029;
+  padding: 15px 11px;
+  font-weight: bold;
+  font-size: 15px;
+  gap: 6px;
+  flex-direction: row;
+  display: flex;
+}
+.create-discount-btn button:hover{
+  cursor: pointer;
+}
+
+.discount-main-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
+  padding: 2%;
+  border-radius: 15px;
+  margin-top: 1%;
+}
+.discount-sub-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+
+.discount-sub-row > div > .dis-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+.discount-sub-row > div > p {
+  font-size: 14px;
+  margin-top: 2%;
+}
+.highlight-discount {
+  background-color: #d5e0fe;
+  padding: 0.5% 1%;
+  border-radius: 5px;
+  color: #6864c1;
+  font-weight: bold;
+}
+.discount-buttons{
+  width: 20%;
+}
+.discount-update{
+  background-color: #FBBC05;
+  border-radius: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: white;
+  font-size: 14px;
+}
+
+.discount-update:hover{
+  cursor: pointer;
+}
+
+.discount-remove{
+  background-color: #F4685D;
+  border-radius: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: white;
+  font-size: 14px;
+  margin-left: 10%;
+}
+
+.discount-remove:hover{
+  cursor: pointer;
+}

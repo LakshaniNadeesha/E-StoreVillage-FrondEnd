@@ -1,0 +1,101 @@
+.edit-order-main-container{
+    padding: 2.5% 1%;
+    width: 100%;
+}
+
+.edit-order-row-container{
+    width: 57%;
+    margin-left: 23%;
+    margin-top: 4%;
+    height: 450px;
+    border-radius: 32px;
+    background-color: white;
+    margin-bottom: 2%;
+}
+.edit-order-form-box{
+    background: white;
+    padding: 30px 0px 20px 50px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.edit-order-full{
+    display: flex;
+    background: white;
+    margin-bottom: 30px;
+}
+
+.edit-order-left{
+    flex: 50%;
+    background: white;
+}
+
+.edit-order-right{
+    flex: 50%;
+    background: white;
+}
+
+label {
+    background-color: white;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.edit-order-input-text{
+    padding: 12px 60px 12px 10px;
+    border: 3px solid #ccc;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.seller-order-status-input-text{
+    padding: 12px 60px 12px 10px;
+    width: 80%;
+    border: 3px solid #ccc;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.seller-edit-order-btn{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-order-success-btn {
+    background-color: #ffc029d4;
+    color: black;
+    border: 2px solid #ffc029d4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20%;
+}
+
+.edit-order-cancel-btn{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 8%;
+}
+
+.edit-order-success-btn:hover{
+    cursor: pointer;
+}
+
+.edit-order-cancel-btn:hover{
+    cursor: pointer;
+}

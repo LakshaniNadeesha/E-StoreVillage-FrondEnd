@@ -1,0 +1,84 @@
+.my-shop-main-container {
+  padding: 2% 2%;
+  width: 100vw;
+}
+
+.my-shop-top-product-container {
+  width: 60%;
+}
+.header-top-product {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 5%;
+  text-align: center;
+}
+
+.reviews-header-top-product {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 5%;
+}
+.my-shop-top-product-container_2 {
+  width: 35%;
+  background-color: white;
+  border-radius: 31px;
+  padding: 2%;
+  margin-top: 3%;
+}
+
+.my-shop-main-row-container {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-product-container {
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  width: 100%;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 3%;
+}
+
+.my-shop-logo-container {
+  justify-content: center;
+  display: flex;
+  margin-top: 20%;
+}
+
+.my-shop-followrs-container {
+  padding: 0 9%;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.my-shop-para {
+  padding: 6% 6%;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  margin-top: 2%;
+  font-family: "Poppins";
+}
+.my-shop-socialmedia-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8%;
+}
+
+.my-sho-logo {
+  width: 160%;
+  margin-bottom: 10%;
+}
+
+.my-shop-see-all-btn {
+  width: 100%;
+  background-color: #02334f;
+  color: white;
+  padding: 2% 0;
+  margin-top: 5%;
+}
